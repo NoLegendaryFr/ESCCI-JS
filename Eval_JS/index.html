@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Portefolio</title>
+    </head>
+
+    <body id="bg_body">
+        <!-- {# Header #} -->
+        <header>
+            <!-- {# Nav header #} -->
+            <nav class="container flex">
+                <div id="nav_header_gauche">
+                    <!-- {# Logo #} -->
+                    <img src="./images/apiLogo.svg" alt="" id="logo">
+                    <!-- {# Prenom #} -->
+                    <p>prenom</p>
+                    <!-- {# Nom #} -->
+                    <p>nom</p>
+                </div>
+                <!-- {# Burger #} -->
+                <img id="burger" src="./images/MenuOpen.svg" alt="">
+                <img src="./images/MenuClose.svg" alt="" id="burger_close">
+                <ul>
+                    <li>Home</li>
+                    <li>Portefolio</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="hero_section">
+                <!-- Card -->
+                <div class="card">
+                    <!-- Img hero -->
+                    <img src="" alt="" id="hero_img">
+                    <!-- presentation -->
+                    <div id="div_hero_presentation">
+                        <h1>Hello, je suis <span id="prenom"></span>
+                        </h1>
+                    </div>
+                    <!-- Texte -->
+                    <div id="div_hero_texte">
+                        <p>
+                            Je suis [job], je suis [basé / basée] à [ville], [pays] et j'ai [age] ans.
+                            Je suis [job] BackEnd freelance avec une spécialisation dans les API REST.
+
+                            J’aime Voyager et écouter de la musique. J’ai eu la chance de visiter certains pays tels que
+                            la Belgique, l’Espagne,
+                            l’Angleterre, la Pologne et Malte. Grâce à ces expériences de voyages, j’ai pu découvrir et
+                            apprendre de nouvelles
+                            cultures et enrichir mes compétences en langue étrangère (comme l’anglais et l’espagnol).
+
+                            J'ai aussi pu acquérir de nouvelles compétences liées aux bonnes pratiques et aux
+                            savoir-faire professionnels
+                            indispensables dans le métier de développeur web (gestion de projets, versioning, ...).
+
+                            Je possède également des compétences d'administration réseau, d'admininistration système
+                            Linux et quelques notions
+                            DevOps (Docker, Gitlab CI, ...). Libriste et linuxien, j'aime les temps conviviaux des
+                            install parties.
+
+                            J’aime exercer mon métier dans un environnement me permettant de partager mes compétences
+                            avec celles d’une équipe.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="competences_section">
+                <div class="card">
+                    <!-- Img card -->
+                    <figure>
+                        <p>Compétences</p>
+                        <div id="div_frameworks_php">
+                            <!-- div Symfony -->
+                            <p>Frameworks PHP</p>
+                            <div>
+                                <img src="./images/frameworks/Symfony.svg" alt="">
+                                <p>Symfony</p>
+                            </div>
+                            <!-- div Laravel -->
+                            <div>
+                                <img src="./images/frameworks/Laravel.svg" alt="">
+                                <p>Laravel</p>
+                            </div>
+                            <!-- div Phalcon -->
+                            <div>
+                                <img src="./images/frameworks/Phalcon.svg" alt="">
+                                <p>Phalcon</p>
+                            </div>
+                        </div>
+                        <div id="div_frameworks_bdd">
+                            <!-- div MySQL -->
+                            <p>Base de données</p>
+                            <div>
+                                <img src="./images/db/Mysql.svg" alt="">
+                                <p>MySql</p>
+                            </div>
+                            <!-- div PostgreSQL-->
+                            <div>
+                                <img src="./images/db/PostgresqlFill.svg" alt="">
+                                <p>PostgreSql</p>
+                            </div>
+                            <!-- div Sqlite-->
+                            <div>
+                                <img src="./images/db/LogosSqlite.svg" alt="">
+                                <p>Sqlite</p>
+                            </div>
+                        </div>
+                        <div id="div_frameworks_api">
+                            <!-- div Postman -->
+                            <p>IDE full API</p>
+                            <div>
+                                <img src="./images/apiTests/Postman.svg" alt="">
+                                <p>Postman</p>
+                            </div>
+                            <!-- Div insomnia -->
+                            <div>
+                                <img src="./images/apiTests/Insomnia.svg" alt="">
+                                <p>Insomnia</p>
+                            </div>
+                            <!-- DivHTTPie -->
+                            <div>
+                                <img src="./images/apiTests/HttpieIcon.svg" alt="">
+                                <p>HTTPie</p>
+                            </div>
+                        </div>
+                        <figcaption>
+                            <img src="images/GameIconsSkills.svg" alt="" id="img_competences">
+                        </figcaption>
+                    </figure>
+                </div>
+            </section>
+            <!-- Section avis clients -->
+            <section id="avis_section">
+                <figure>
+                    <!-- Card avis clients -->
+                    <div id="card_client">
+                        <h2>Avis clients :</h2>
+                        <!-- Avis client 1 -->
+                        <div>
+                            <!-- Img note -->
+                            <img src="./images/Star1Solid.svg" alt="">
+                            <p>5</p>
+                            <!-- Text avis client -->
+                        </div>
+                        <p id="text_avis_client1">
+                        </p>
+                        <!-- Avis client 2 -->
+                        <div>
+                            <!-- Img note -->
+                            <img src="./images/Star1Solid.svg" alt="">
+                            <p>5</p>
+                            <!-- Text avis client -->
+                        </div>
+                        <p id="text_avis_client2">
+                        </p>
+                        <!-- Avis client 3 -->
+                        <div>
+                            <!-- Img note -->
+                            <img src="./images/Star1Solid.svg" alt="">
+                            <p>5</p>
+                            <!-- Text avis client -->
+                        </div>
+                        <p id="text_avis_client3">
+                        </p>
+                    </div>
+                    <figcaption>
+                        <!-- Img avis -->
+                        <img src="./images/SuccessUpUser.svg" alt="">
+                    </figcaption>
+                </figure>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer>
+            <!-- Div footer -->
+            <div>
+                <p id="email">Email</p>
+                <p>Contact : ☎ (0707) 153996</p>
+            </div>
+            <!-- Bouton changement de profil -->
+            <img src="./images/Refresh.svg" alt="" id="btn_profil">
+        </footer>
+        <script src="./JS/app.js"></script>
+    </body>
+
+</html>
